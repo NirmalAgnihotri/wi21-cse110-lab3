@@ -3,7 +3,7 @@ name: CSS Issue Template
 about: CSS feature/styling to implement
 title: ''
 labels: ''
-assignees: ''
+assignees: NirmalAgnihotri
 
 ---
 
