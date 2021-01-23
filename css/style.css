@@ -9,13 +9,14 @@ body{
 h1, h2 {
     color: rgb(60, 100, 120);
     font-family: 'Roboto', sans-serif;
+    text-decoration: underline  #1287a8;
 
 }
 
 h3 {
     color: #1287a8;
     font-family: 'Roboto', sans-serif;
-
+    text-decoration: underline rgb(60, 100, 120);
 }
 
 #funhead{
@@ -25,15 +26,20 @@ h3 {
 }
 
 
-figure > figcaption{
+figure > figcaption, caption{
     font-family: 'Montserrat', sans-serif;
+    font-size: small;
 }
 summary + p {
     color: #0Af;
+    border: 2px solid rgb(60, 100, 120);
+    border-radius: 8px;
 }
 
 p{
     font-family: 'Montserrat', sans-serif;
+    max-width: 60%;
+    min-width: 10%;
     font-weight: normal;
 }
 .survey{
@@ -54,10 +60,26 @@ label[for="Facebook"] {
     color: white;
 }
 
-canvas:hover {
+svg~canvas:hover {
     background-color: hsla(120, 60%, 70%, 0.3);
 }
 
-canvas~svg{
-    fill: hsla(0, 100%, 70%, 0.3);
+p.groove{
+    border-style:groove;
+    border-width:thin;
+}
+
+section table{
+    border-style: ridge;
+    border-width: thick;
+    border-color:rgb(60, 100, 120);
+}
+
+th, td {
+    border: 1px solid rgb(60, 100, 120);
+}
+
+#signature{
+    max-width: 100%;
+    text-align: right;
 }
