@@ -144,3 +144,7 @@ img[src="currentBuildHTML.jpg"]{
     right: 0px;
 }
 
+.hidtext{
+    display: none;
+}
+
