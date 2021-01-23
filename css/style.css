@@ -1,4 +1,4 @@
-
+/* MAin text coloring and positioning*/
 *{
     line-height: 1.6em;
 }
@@ -25,7 +25,7 @@ h3 {
 
 }
 
-
+/*Misc font and color changes*/
 figure > figcaption, caption{
     font-family: 'Montserrat', sans-serif;
     font-size: small;
@@ -47,6 +47,16 @@ p{
     font-weight: normal;
 }
 
+ol{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+ul{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
 /*change color for social media questions*/
 label[for="Instagram"] {
     color: rgba(193, 53, 132, 0.6);
@@ -61,6 +71,7 @@ label[for="Facebook"] {
     color: white;
 }
 
+/* canvas and border styling*/
 p~canvas:hover {
     background-color: hsla(120, 60%, 70%, 0.3);
 }
@@ -81,6 +92,8 @@ th, td {
     border: 1px solid rgb(60, 100, 120);
 }
 
+/*change position of "created by" text
+to make it stand out*/
 #signature{
     max-width: 100vw;
     text-align: right;
@@ -95,6 +108,7 @@ th, td {
     padding: 0.5cm 0.2cm 1.8cm 0.2cm;
     width: 300px;
     background-color: #aec6cf;
+    border: 15px solid  rgb(60, 100, 120);
 
 }
 
@@ -103,15 +117,19 @@ video{
     margin-bottom: 15px;
 }
 
-aside{
-    width: 25%;
-    float: right;
-    padding-left: 15px;
-    margin-left: 15px;
-    margin-right: 40%;
-    font-style: italic;
+/*fixed issue with aside using media query*/
+@media only screen and (min-width: 1160px){
+    aside{
+        width: 25%;
+        float: right;
+        padding-left: 15px;
+        margin-left: 15px;
+        margin-right: 40%;
+        font-style: italic;
+    }
 }
 
+/* image, table, and frame position changes*/
 iframe {
     position: static;
     width: 50%;
@@ -125,6 +143,7 @@ iframe {
 }
 
 .btn {
+    padding-top: 15px;
     padding-left: 80px;
     padding-right: 40px;
 }
@@ -133,7 +152,7 @@ img[src="currentBuildHTML.jpg"]{
     height: 400px;
 }
 
-/*creat box for favorite colors*/
+/*create box for favorite colors*/
 .box {
     height: 150px;
     width: 300px;
@@ -159,6 +178,7 @@ img[src="currentBuildHTML.jpg"]{
     grid-template-rows: 100px 100px 100px;
     background-color:rgb(60, 100, 120);
     padding: 10px;
+    row-gap: 10px;
 }
 
 .mov, .book, .vid{
