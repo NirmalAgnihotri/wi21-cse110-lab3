@@ -1,0 +1,63 @@
+
+*{
+    line-height: 1.6em;
+}
+body{
+    background-color: hsl(0, 0%, 94%);
+}
+
+h1, h2 {
+    color: rgb(60, 100, 120);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h3 {
+    color: #1287a8;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#funhead{
+    color: #1287a8;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+figure > figcaption{
+    font-family: 'Montserrat', sans-serif;
+}
+summary + p {
+    color: #0Af;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+.survey{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+label[for="Instagram"] {
+    color: rgba(193, 53, 132, 0.6);
+}
+
+label[for="Twitter"] {
+    color: rgb(29, 161, 242);
+}
+
+label[for="Facebook"] {
+    background-color: #4267b2;
+    color: white;
+}
+
+canvas:hover {
+    background-color: hsla(120, 60%, 70%, 0.3);
+}
+
+canvas~svg{
+    fill: hsla(0, 100%, 70%, 0.3);
+}
